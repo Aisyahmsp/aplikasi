@@ -21,6 +21,9 @@ from sklearn.utils.validation import joblib
 from sklearn.preprocessing import StandardScaler
 from PIL import Image
 
+# display
+st.set_page_config(page_title="Hepatitis C", page_icon='icon.png')
+
 st.write(""" 
 # WELCOME TO PREDICT HEPATITIS C SYSTEM
 """)
