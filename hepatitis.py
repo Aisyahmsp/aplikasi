@@ -29,6 +29,9 @@ st.write("======================================================================
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Deskripsi Data", "Dataset (Import Data)", "Preprocessing", "Modelling", "Implementasi"])
 
+df= pd.read_csv("https://raw.githubusercontent.com/Aisyahmsp/aplikasi/main/hepatitisclean.csv")
+
+
 with tab1:
     st.write("HEPATITIS C DATASET")
     st.write("Dataset ini berisi nilai laboratorium donor darah dan pasien Hepatitis C serta nilai demografi seperti usia")
@@ -48,7 +51,8 @@ with tab1:
     st.write("12. Age  : Numerik ")
     st.write("13. Category : Kategorikal (0 = Blood Donor, 1 = Suspect Blood Donor, 2 = Hepatitis, 3 = Fibrosis, 4 = Cirrhosis ")
     st.write("Sumber Data : https://www.kaggle.com/datasets/fedesoriano/hepatitis-c-dataset")
-    st.write("Sumber Dataset Cleaning : https://raw.githubusercontent.com/Aisyahmsp/datamining/main/hepatitis.csv")
+    st.write("Sumber Dataset Cleaning : https://raw.githubusercontent.com/Aisyahmsp/aplikasi/main/hepatitisclean.csv")
+    st.write("Code Aplikasi Github : https://github.com/Aisyahmsp/aplikasi")
     
 
 with tab2:
