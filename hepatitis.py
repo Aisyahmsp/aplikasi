@@ -246,7 +246,7 @@ with tab5 :
         le = joblib.load("le.save")
 
         if akurasi > skor_akurasi and akurasiii:
-            model = joblib.load("nb.joblib")
+            model = joblib.load("gnb.joblib")
 
         elif skor_akurasi > akurasi and akurasiii:
             model = joblib.load("knn.joblib")
